@@ -80,7 +80,7 @@ const Home = () => {
                 <img className="mx-auto mb-4 h-56 w-full object-cover rounded-lg" src={book.thumbnailUrl} alt="book img" />
                 <h2 className="text-xl font-bold text-gray-800 mb-3">{book.title}</h2>
                 <p className="mb-3 text-gray-600"> <strong>Page Count:</strong> {book.pageCount} </p>
-                <div className="flex gap-5 justify-between">
+                <div className="flex flex-col gap-5 ">
                   <div className="mb-2">
                     <strong className="block text-gray-700">Authors:</strong>
                     <ul className="text-gray-600">
